@@ -29,3 +29,29 @@ Phase 2 (Logic): Deployment of the Triple-Lock Engine for real-time validation a
 Phase 3 (Analysis): Application of feasibility metrics and network topology mapping to identify phantom suppliers.
 
 Phase 4 (Output): A pre-disbursement early warning dashboard for lenders to block fraudulent transactions in near real-time.
+
+# Invoice Management Module
+
+A Laravel-based invoice management system integrated with PhantomShield for supply chain finance operations.
+
+## Setup
+1. `composer install`
+2. Copy `.env.example` to `.env` and configure database
+3. `php artisan key:generate`
+4. `php artisan migrate`
+5. `php artisan serve`
+
+## API Endpoints
+- POST /api/login — Authenticate and get API token
+- GET /api/activities — List activities
+- CRUD /api/clients — Manage clients
+- CRUD /api/invoices — Manage invoices
+- CRUD /api/payments — Manage payments
+- CRUD /api/products — Manage products
+- CRUD /api/users — Manage users
+
+## Architecture
+- Settings cascade: Company → Group → Client
+- API-first with Fractal transformers
+- Full activity audit trail
+- Policy-based authorization
