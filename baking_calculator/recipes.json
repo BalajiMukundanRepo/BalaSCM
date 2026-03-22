@@ -1,0 +1,103 @@
+{
+  "chocolate_brownies": {
+    "description": "Classic Chocolate Brownies",
+    "batch_yield": 12,
+    "yield_unit": "pieces",
+    "ingredients": {
+      "all_purpose_flour": 0.15,
+      "butter": 0.15,
+      "sugar": 0.2,
+      "eggs": 3,
+      "cocoa_powder": 0.05,
+      "vanilla_extract": 5,
+      "chocolate_chips": 0.1
+    },
+    "overhead": {
+      "gas_electricity": 30,
+      "packaging_per_unit": 15,
+      "labor_per_batch": 50
+    },
+    "profit_margin_percent": 40
+  },
+  "vanilla_muffins": {
+    "description": "Soft Vanilla Muffins",
+    "batch_yield": 12,
+    "yield_unit": "pieces",
+    "ingredients": {
+      "all_purpose_flour": 0.25,
+      "butter": 0.1,
+      "sugar": 0.15,
+      "eggs": 2,
+      "milk": 0.12,
+      "baking_powder": 0.01,
+      "vanilla_extract": 10
+    },
+    "overhead": {
+      "gas_electricity": 25,
+      "packaging_per_unit": 10,
+      "labor_per_batch": 40
+    },
+    "profit_margin_percent": 45
+  },
+  "butter_cookies": {
+    "description": "Crispy Butter Cookies",
+    "batch_yield": 30,
+    "yield_unit": "pieces",
+    "ingredients": {
+      "all_purpose_flour": 0.3,
+      "butter": 0.2,
+      "powdered_sugar": 0.1,
+      "eggs": 1,
+      "vanilla_extract": 5,
+      "salt": 0.005,
+      "baking_powder": 0.005
+    },
+    "overhead": {
+      "gas_electricity": 25,
+      "packaging_per_unit": 5,
+      "labor_per_batch": 50
+    },
+    "profit_margin_percent": 50
+  },
+  "margherita_pizza": {
+    "description": "Classic Margherita Pizza",
+    "batch_yield": 4,
+    "yield_unit": "pieces",
+    "ingredients": {
+      "all_purpose_flour": 0.5,
+      "yeast": 0.01,
+      "olive_oil": 0.03,
+      "sugar": 0.01,
+      "salt": 0.01,
+      "pizza_sauce": 0.2,
+      "mozzarella_cheese": 0.3
+    },
+    "overhead": {
+      "gas_electricity": 40,
+      "packaging_per_unit": 20,
+      "labor_per_batch": 60
+    },
+    "profit_margin_percent": 35
+  },
+  "ragi_millet_bread": {
+    "description": "Healthy Ragi Millet Bread",
+    "batch_yield": 1,
+    "yield_unit": "loaf",
+    "ingredients": {
+      "ragi_flour": 0.2,
+      "whole_wheat_flour": 0.15,
+      "yeast": 0.01,
+      "sugar": 0.02,
+      "salt": 0.005,
+      "milk": 0.15,
+      "butter": 0.03,
+      "honey": 0.02
+    },
+    "overhead": {
+      "gas_electricity": 20,
+      "packaging_per_unit": 15,
+      "labor_per_batch": 40
+    },
+    "profit_margin_percent": 40
+  }
+}
